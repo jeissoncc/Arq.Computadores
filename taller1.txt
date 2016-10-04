@@ -17,39 +17,39 @@ Los 4 principios de diseño de hardware son:
 3) convertir a instrucciones a bajo nivel
 
 
-Int x=0;
-Int y=8;
-Int z=1;
+Int x=0; %L0
+Int y=8; %L1
+Int z=1; %L2
 
-Y=x+3;
-Z= z+3;
+Y=x+3;  Y-->%L3
+Z= z+3; Z-->%L4
 
 X= (x-z) + (3+y);
 
 R/ 
-0XOOOO   add %g0 , 0, &L1
-0XOOO4    add %g0 , 8, &L2
-0XOOO8    add %g0 , 1, &L3
-0XOOOC    add %L1 , 3, &L4
-0XOO1O    add %L3, 3, &L5
-0XOO14     add %L1, %L3, &L6
-0XOO18     add %L2, 3, &L7
-0XOO1C     add %L6, %L7, %g1
+0XOOOO    add %g0, 0, %L0
+0XOOO4    add %g0, 8, %L1
+0XOOO8    add %g0, 1, %L2
+0XOOOC    add %L0, 3, %L3
+0XOO1O    add %L2, 3, %L4
+0XOO14    add %L0, %L2, %L5
+0XOO18    add %L1, 3, %L6
+0XOO1C    add %L5, %L6, %L7
 
 4) usar LD Y ST.
 
 A [4] = A [2] +x;
 R/
-Ld. (%L1 ,(2X2)) , %L2
-Add %L2,%L3,%L4
-St %L4 ,%L2, 16
+Ld. [%L0 ,(2X4)], %L2
+Add %L1, %L2, %L1
+ST %L1,[%L0  + (4*4)]
 
 
 Y = Y[40]+13;
 R/
- Ld (%L1,(40X4)), %L2
-Add %L2 ,13, %g1
-st %g1, %l1,0
+ LD [%L0,(40X4)], %L1
+ADD %L1, 13, %L2
+ST %L2, [%L0  + (0*4)]
 
 5) Convertir a lenguaje de maquina
 
