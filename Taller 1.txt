@@ -1,0 +1,31 @@
+1-) G0---> Esta fijo por medio del hardware con el valor 0, en él los almacenamientos no alteran su valor.
+
+2-)
+
+Y = (Z + 3) - (Y + (B + Z))
+Y = %L0
+Z = %L1
+3 = %L2
+B= %L3
+
+ADD %L1, %L2, %L4
+ADD %L3, %L1, %L5
+ADD %L0, %L5, %L6
+DUB %L4, %L6, %L3
+
+
+3-)
+
+Y[8] = Y[3] + (Y[1] - J)) + Z[3]
+Y = %L0
+J = %L1
+Z = %L2
+
+LD   [%L0 + (3 * 4)], %L3
+LD   [%L0 + (1 * 4)], %L4
+LD   [%L2 + (3 * 4)], %L5
+SUB  %L4, %L1, %L6
+ADD  %L3, %L6, %L1
+ADD  %L1, &L2, %L2
+ST   %L2, [%L0 + [8 * 4)] 
+ 
