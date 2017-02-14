@@ -1,0 +1,79 @@
+
+1-) 
+int mul(int a, int b)
+{
+    int i = 1;
+    int x = a;
+    for(i; i < b; i++)
+    {
+        a =  a + x;
+    }
+    return(a);
+}
+
+2-)
+int pot (int a , int b)
+{
+    int i = 1;
+    int x = a;
+    for (i ; i < b; i++)
+    {
+        a = mul(a,x);
+    }
+    return (a);
+
+}
+
+3-)
+int polinomio(int p, int x, int k[0], int n, int i, int r)
+{
+    for(i=0; i<= n; i++)
+    {
+          x= pow(x,i);
+          p=k[i] * x;
+          p= r;
+          r= r + p;
+          
+          return(r);
+          
+
+
+4-)
+int factorial (int a)
+{
+
+    int i = 1;
+    int x = a;
+    for (i; i< x; i++)
+    {
+        a = mul(i,a);
+    }
+    return (a);
+}
+
+5-)
+int division(int a, int b, int c)
+{
+    c= a / b;
+    
+    return(c);
+    }
+    
+
+
+int main ()
+{
+    int a,b,c ;
+    printf("digite a \n");
+    scanf("%d",&a);
+    printf("digite b\n");
+    scanf("%d",&b);
+    c = mul(a,b);
+    printf("\nmultiplicacion: %d",c);
+    c = pot(a,b);
+    printf("\npotencia: %d",c);
+    c = factorial(a);
+    printf("\nfactorial de a: %d",c);
+    c = factorial(b);
+    printf("\nfactorial de b: %d",c);
+}
