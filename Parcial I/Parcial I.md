@@ -27,6 +27,7 @@ Es un registro de valor temporal, alli se almacena las direcciones de la insrucc
 a.
 
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10a.PNG)
+
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10A1.PNG)
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10A2.PNG)
 
