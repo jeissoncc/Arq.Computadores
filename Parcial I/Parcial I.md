@@ -57,6 +57,9 @@ c.
 
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/mul.PNG)
 
+![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/mul1.PNG)
+![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/mul2.PNG)
+
 ### 13. Implemente la función Pot en lenguaje de alto nivel,lenguaje ensamblador SPARC V8 y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función desarrollada en el punto 9.
 
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/pot.PNG)
@@ -69,6 +72,8 @@ c.
 
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/div.PNG)
 
+![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/div1.PNG)
+![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/div2.PNG)
 
 
 
