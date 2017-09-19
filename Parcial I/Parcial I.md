@@ -31,6 +31,15 @@ a.
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10A1.PNG)
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10A2.PNG)
 
+b.
+
+![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10b.PNG)
+
+c.
+
+![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10c.PNG)
+
+### 11. Convierta el siguiente código a lenguaje ensamblador, máquina SPARC V8 y hexadecimal.
 
 
 
