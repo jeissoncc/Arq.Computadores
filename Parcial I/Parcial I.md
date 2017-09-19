@@ -35,6 +35,9 @@ b.
 
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10b.PNG)
 
+![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10b1.PNG)
+![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10b2.PNG)
+
 c.
 
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10c.PNG)
