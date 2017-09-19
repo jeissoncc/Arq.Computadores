@@ -42,6 +42,9 @@ c.
 
 ![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10c.PNG)
 
+![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10c1.PNG)
+![](https://github.com/jeissoncc/Arq.Computadores/blob/master/Images/10c2.PNG)
+
 ### 11. Convierta el siguiente código a lenguaje ensamblador, máquina SPARC V8 y hexadecimal.
 
 ### 12. Implemente una función Mul en lenguaje de alto nivel, lenguaje ensamblador SPARC V8 y lenguaje de máquina SPARC V8 que realice la multiplicación de dos enteros sin signo usando solo sumas.
